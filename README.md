@@ -29,7 +29,7 @@ Tested that containerized application worked (I used Insomnia)
 Learned to store image on Dockerhub with "docker compose push".
 Tried to used the image we just stored on Dockerhub after removing the images and containers locally.
 
-## A little more about the model:
+## A little more about the model in this tutorial:
 
 Although the tutorial itself did not go too much into the model it's using as it was more so about deploying an ML app, I did find a bit about the reasoning behind the use of these models here https://www.kaggle.com/code/stoicstatic/twitter-sentiment-analysis-for-beginners
 
@@ -51,7 +51,8 @@ So what do we do? This is where the "idf" part comes in. The "idf" part stands f
 
 The TF-IDF Vectorizer then just converts a collection of raw documents into a matrix of tf-idf matrix. Our TF-IDF Vectorizer takes into consideration unigrams and bigrams with up to 500000 features.
 
-This tutorial also looked at the evaluations of three models for this classification task. Particularly the Bernoulli Naive Bayes, Linear Support Vector Classification, and Logistic Regression. 
+## What else happened in this tutorial?
+This tutorial also looked at the evaluations of three models for this classification task. Particularly the Bernoulli Naive Bayes, Linear Support Vector Classification, and Logistic Regression. For the purpose of this tutorial, I think this sufficed. However, further exploration can always be done. 
 
 We ended up setting up and saving a pipeline. 
 Eventually we ended up importing the code needed from the notebook and created a predict function with our pickled model. 
@@ -59,6 +60,9 @@ After we created a Flask App where we can send a post request with some tweets i
 
 Sources
 (1) https://www.docker.com/resources/what-container/
+
+More Sources
+https://www.ibm.com/cloud/architecture/content/course/containers-and-docker/docker-containers/
 https://www.analyticsvidhya.com/blog/2021/11/how-sklearns-tfidfvectorizer-calculates-tf-idf-values/
 https://www.capitalone.com/tech/machine-learning/understanding-tf-idf/
 https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
