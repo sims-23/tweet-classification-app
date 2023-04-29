@@ -22,12 +22,12 @@ I'm just kidding. I'm also going to give you the definition of what a container 
 A virtual machine can solve this problem, but a virtual machine is costly as a virtual machine has it's own operating system inside of it. Docker however uses the operating system of whatever its on whether it's a server or computer. This makes it much lighter.
 
 ### What was covered in tutorial about Docker?
-Creating a Dockerfile (Dockerfile is used to build the Docker img).
-Created a docker-compose.yml
-Built the image and then ran the container with "docker compose up --build" command.
-Tested that containerized application worked (I used Insomnia)
-Learned to store image on Dockerhub with "docker compose push".
-Tried to used the image we just stored on Dockerhub after removing the images and containers locally.
+- Creating a Dockerfile (Dockerfile is used to build the Docker img).
+- Created a docker-compose.yml
+- Built the image and then ran the container with "docker compose up --build" command.
+- Tested that containerized application worked (I used Insomnia)
+- Learned to store image on Dockerhub with "docker compose push".
+- Tried to used the image we just stored on Dockerhub after removing the images and containers locally.
 
 ## A little more about the model in this tutorial:
 
