@@ -11,7 +11,7 @@ https://www.kaggle.com/datasets/kazanova/sentiment140
 To refresh and improve my Docker knowledge. Also, to learn how to transfer a notebook to a production ready web app created with Flask.
 
 ## Why it's important to know Docker?
-Docker is one of the most popular (perhaps the most) containerization platform. 
+Docker is one of the most popular containerization platform. 
 
 Now you might be asking, what is containerization (or not, but I'm going to answer this anyways)?
 Containerization is about creating a container. Okay, I'm done.
